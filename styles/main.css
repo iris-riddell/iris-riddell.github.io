@@ -53,6 +53,7 @@ img {
 
 #blog-list li {
     list-style: none;
+    padding: 10px;
 }
 
 .container {
