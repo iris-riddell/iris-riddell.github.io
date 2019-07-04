@@ -1,5 +1,5 @@
 body {
-    background-color: #9dff8a;
+    background-color: #1f6271;
     color: #301c00;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -10,7 +10,8 @@ h1 {
     padding: 20px;
     width: 1290px;
     border-radius: 20px;
-    background-color: #ffdeb0;
+    background-color: #301c00;
+    color: #e4bfca;
 }
 
 h2 {
@@ -28,14 +29,15 @@ img {
 #introduction {
   margin-top: 20px;
   padding: 20px;
-  background-color: #ffdeb0; 
+  background-color: #e4bfca; 
   font-size: 2rem; 
   border-radius: 20px;
 }
 
 #about-me {
   padding: 20px;
-  background-color: #ffdeb0; 
+  background-color: #301c00;
+  color: #e4bfca; 
   font-size: 1.5rem; 
   border-radius: 20px;
 }
@@ -46,7 +48,7 @@ img {
 
 #blog-list {
   padding: 20px;
-  background-color: #ffdeb0; 
+  background-color: #e4bfca; 
   font-size: 1.5rem; 
   border-radius: 20px;
 }
