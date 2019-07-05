@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>Understanding Classes and IDs</title>
-
+    </head>
 
 <header>
     <h1>Understanding Classes and IDs</h1>
@@ -34,19 +34,37 @@
     </div>
 
   <h2>That’s great but… when do I use them?</h2>
-    <p class="main-content">Since ids are unique, it’s best to use them for situations where you only have a single instance within your code, like a header or footer. Classes, on the other hand, can be applied to elements that are used in many different places, like photographs or blocks of text. Multiple classes can be applied to the same element. Similarly, an element can take a class and an id.
-        But if you try to use an id twice? Yeah, that’s going to be chewed up and spat it right back out.
+  <div class="main-content">
+    <p>Okay, we know how to identify a class and an id. But how the heck do you use them in practice?
+    </br>
+</br>
+    Well, the id is a bit of a prima donna. It only wants to talk to one element, and one element alone. The class on the other hand is a cheerful, outgoing soul – it can be applied to as many elements as you want!
+</br>
+</br>
+Since ids are unique and demand to be treated with respect, it’s best to use them for situations where you only have a single instance within your code, like a header or footer. Classes, on the other hand, can be applied to things like photographs or blocks of text. 
+</br>
+</br>
+Even though ids don’t like to mingle with multiple elements, they’ll happily mix with classes so things like this are totally okay:
         </p>
-
-  <h2>In addition</h2>
-    <p class="main-content">It’s also important to note that you should avoid drowning your stylesheet in unnecessary classes and ids. Keep it simple. Some developers even follow the school of thought that you should avoid using ids altogether, as classes provide so much more flexibility. That said, there are strong counter arguments that clear, unambiguous ids provide better accessibility for people using screenreaders.</p>
+        <div class="container">
+        <a href="https://gyazo.com/f898194b80594549792dc58ba8cc4ae5"><img src="https://i.gyazo.com/f898194b80594549792dc58ba8cc4ae5.png" alt="Image from Gyazo" width="440"/></a>
+    </div>
+</div>
 
   <h2>To summarise…</h2>
-    <p class="main-content">Classes can be used multiple times within a stylesheet, while ids – which carry more weight – can only be used once. When deciding whether to use a class or id, ask yourself whether it’s likely to be the only instance of that selector within your stylesheet. If it’s a photo or text styling, opt for a class. If it’s a navbar, header or footer, slap it with an id.
-    </br>Regardless, the best way to get a handle on classes versus ids is to get out there and give it a crack.
-    </br>Happy coding!
-        </p>
+  <div class="main-content">
+    <p>Classes can be used multiple times within a markup document, while ids – which carry more weight – can only be used once. When deciding whether to use a class or id, ask yourself whether it’s likely to be the only instance of that selector within your stylesheet. If it’s a photo or text styling, opt for a class. If it’s a navbar, header or footer, slap it with an id.
+    </br>
+    </br>
+    Regardless, the best way to get a handle on classes versus ids is to get out there and give it a crack.</p>
+    </br>
+    </br>
+</div>
+    <div id="footer">
+        <h1>Happy coding!</h1>
+    </div>
+        
+    
 
 </body>
-    </head>
 </html>

@@ -71,3 +71,18 @@ img {
     padding: 20px;
     margin: 30px 40px 10px 40px;
 }
+
+.container {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#footer {
+  display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;  
+}
