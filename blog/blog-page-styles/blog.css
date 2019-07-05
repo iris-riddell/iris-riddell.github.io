@@ -72,6 +72,25 @@ img {
     margin: 30px 40px 10px 40px;
 }
 
+#back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center; 
+}
+
+#back-button a {
+  background-color: #e4bfca;
+  color: #301c00;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
 .container {
   display: flex;
 justify-content: center;
