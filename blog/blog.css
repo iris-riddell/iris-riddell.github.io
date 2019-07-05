@@ -1,0 +1,69 @@
+body {
+    background-color: #1f6271;
+    color: #301c00;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    width: 1290px;
+    border-radius: 20px;
+    background-color: #301c00;
+    color: #e4bfca;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+img {
+    width: 15%;
+}
+
+#introduction {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e4bfca; 
+  font-size: 2rem; 
+  border-radius: 20px;
+}
+
+#about-me {
+  padding: 20px;
+  background-color: #301c00;
+  color: #e4bfca; 
+  font-size: 1.5rem; 
+  border-radius: 20px;
+}
+
+#about-me p {
+    margin-right: 60px;
+}
+
+#blog-list {
+  padding: 20px;
+  background-color: #e4bfca; 
+  font-size: 1.5rem; 
+  border-radius: 20px;
+}
+
+#blog-list li {
+    list-style: none;
+    padding: 10px;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .flex-item {
+    margin: auto;
+  }

@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="blog-page-styles/blog.css">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+<html>
+    <head>
+        <title>Understanding Classes and IDs</title>
+
+
+<header>
+    <h1>Understanding Classes and IDs</h1>
+</header>
+
+<body>
+  <h2>Introduction</h2>
+    <div class="main-content"> 
+      <p>You don’t have to delve too deep into learning HTML and CSS to start seeing the terms “id” and “class” being liberally thrown around. But what are they, and what do they do? Well to answer the first question, they’re both selectors; they perform similar jobs but in slightly different ways. As web developers we may not have hammers and nails to build our sites, but it’s just as important for us to know our way around the items in our toolbox. So what’s a newbie developer to do?</p>
+  </div>
+
+<h2>Let’s start with the basics.</h2>
+  <div class="basics">
+      <p>Baby steps. Here’s what a class looks like in the HTML, and CSS respectively:</p></br>
+      <a href="https://gyazo.com/8808f555dbf08226ba50b08720fbc131"><img src="https://i.gyazo.com/8808f555dbf08226ba50b08720fbc131.png" alt="Image showing class markup in html" width="440"/></a>
+      <a href="https://gyazo.com/65e73431678a458e55ddd44ad026c1b0"><img src="https://i.gyazo.com/65e73431678a458e55ddd44ad026c1b0.png" alt="Image showing id markup in css" width="440"/></a>
+    </div>
+
+  <div class="basics">
+        <p>Easy so far? Awesome. Let’s compare it with an id, in the HTML and CSS again:</p></br>
+        <a href="https://gyazo.com/acb7e7d519631578ed814681bef3cdef"><img src="https://i.gyazo.com/acb7e7d519631578ed814681bef3cdef.png" alt="Image showing id markup in html" width="440"/></a>
+        <a href="https://gyazo.com/c408bb60574be696bda4338e67f5b517"><img src="https://i.gyazo.com/c408bb60574be696bda4338e67f5b517.png" alt="Image showing id markup in css" width="440"/></a>
+    </div>
+
+    <div class="main-content">
+        <p>You’ll notice the class is applied to an element with <strong>class=”class-name-here”</strong> and denoted in the associated CSS file with a <bold>#hash</bold>. The id is slightly different - it’s written as <strong>id=”id-name-here”</strong> in the HTML, and marked with a <strong>.fullstop</strong> in the CSS file.</p>
+    </div>
+
+  <h2>That’s great but… when do I use them?</h2>
+    <p class="main-content">Since ids are unique, it’s best to use them for situations where you only have a single instance within your code, like a header or footer. Classes, on the other hand, can be applied to elements that are used in many different places, like photographs or blocks of text. Multiple classes can be applied to the same element. Similarly, an element can take a class and an id.
+        But if you try to use an id twice? Yeah, that’s going to be chewed up and spat it right back out.
+        </p>
+
+  <h2>In addition</h2>
+    <p class="main-content">It’s also important to note that you should avoid drowning your stylesheet in unnecessary classes and ids. Keep it simple. Some developers even follow the school of thought that you should avoid using ids altogether, as classes provide so much more flexibility. That said, there are strong counter arguments that clear, unambiguous ids provide better accessibility for people using screenreaders.</p>
+
+  <h2>To summarise…</h2>
+    <p class="main-content">Classes can be used multiple times within a stylesheet, while ids – which carry more weight – can only be used once. When deciding whether to use a class or id, ask yourself whether it’s likely to be the only instance of that selector within your stylesheet. If it’s a photo or text styling, opt for a class. If it’s a navbar, header or footer, slap it with an id.
+    </br>Regardless, the best way to get a handle on classes versus ids is to get out there and give it a crack.
+    </br>Happy coding!
+        </p>
+
+</body>
+    </head>
+</html>
