@@ -1,0 +1,95 @@
+<link href="blog-page-styles/identity-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript, the DOM, and You</title>
+    </head>
+
+    <h1>JavaScript, the DOM, and You</h1>
+    <body>
+            <div class="main-content">
+            <p> Well, I think we can all agree, that was quite a week! I packed so much JavaScript into my brain I’m surprised there isn’t object-oriented language oozing out my ears. 
+                JavaScript really is a world apart, when compared with HTML and CSS. If I were to use yet another analogy, and compare a website to the human body… I would say that HTML is the skeleton, CSS is the skin, eyes, hair and so forth, and JavaScript is the muscles. While HTML provides the structure and CSS makes everything look stylish, JavaScript makes everything go. Live feed updates? JavaScript. Form submission? JavaScript. Browser-based stop watch? You best believe that’s JavaScript.
+            </p>
+            </div>
+
+            <h2>Control Flow</h2>
+            <div class="main-content">
+            <p>The control flow is, simply, The Way In Which We Do Things. Or at least, it’s the way your computer does things. Code generally runs from top to bottom, unless it hits something that disrupts that flow. 
+                What would a control flow look like for something from everyday life? Let’s say… making tea.</br>
+            </p></br></br></br></br></br></br></br></br>
+            <img id="tea-flow" class="center" src="blog-imgs/tea-control-flow.jpg" alt="A hand drawn diagram of making tea">
+        </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br> </br></br></br></br></br></br></br></br> </br></br></br></br></br></br></br></br> 
+        <!--I KNOW I KNOW this is terrible! I am not sure how to avoid lines and lines of breaks and would love to know a more elegant solution...-->   
+           
+        …At least, that’s how I like my tea. Tea bag in, I hear you say? Yeah well, I live life on the edge. Or I ran out of space. You decide.
+                In our tea-making example, the first step of checking for hot water would be similar to a loop in programming – that loop would continue to run until it evaluated as true, in other words, until the jug was boiled and the water ready to be poured.</p>
+            </p>
+        </div>
+                
+            <h2>The DOM and how to interact with it</h2>
+            <div class="main-content">
+            <p> I confess, I really struggled to make sense of the DOM at first. It seemed like every Google search brought up a different result for what the DOM was, and what it did. If I could have live-Tweeted my thoughts during my research, it might have looked something like this:
+            </br></br>“Okay, cool. It’s a representation model.”
+            </br></br>“Uh, wait. It’s a standardised platform. So is it just a way of thinking about the structure of a web page?”
+            </br></br>“Ooh. Oh. Nope, looks like you can interact with it. Through… JavaScript. Gotcha.”
+            </br></br>“But… how?”
+            </br></br>“Dev Tools? Okay, neat. I’ve definitely heard of that.”
+            </br></br>“But… why?”
+            </br></br>“Ah, you can manipulate elements so they can update page data without  refresh? Make animations or drag, move, and delete elements? That’s pretty sweet.”
+            </br></br></br>Once I got over my existential panic, I found the potential pretty exciting!
+            </br> </br>
+
+                You can manipulate the DOM through Dev Tools. My exposure has been pretty limited so far, but one of the things you can do is pretend to be a hacker and superficially alter a bunch of websites, so I’m pretty excited about that. More to the point, you can actively alter elements on a page in real time, or even alter your code if you know what you’re doing. 
+            </p>
+            </div>
+            
+            <h2>Accessing data from arrays and objects</h2>
+            <div class="main-content">    
+            <p>In JavaScript, an array describes a variable that contains a list of data points. If I had an array of information on the various teas in my flat’s kitchen, it might look something like this:</br>
+                <a href="https://gyazo.com/e16a92da48713d8e401f3c1372789bdd"><img src="https://i.gyazo.com/e16a92da48713d8e401f3c1372789bdd.png" alt="Image from Gyazo" width="498"/></a>
+            </br>
+                You can access information in an array using an index. Let’s say, for example, you decided you wanted kawakawa tea, you could select it like so: </br>
+                <a href="https://gyazo.com/8f94e43fe88e959bdf9aef0976125bec"><img src="https://i.gyazo.com/8f94e43fe88e959bdf9aef0976125bec.png" alt="Image from Gyazo" width="488"/></a>
+        </br>
+                …noting of course that arrays uses zero-based indexing!
+                The same logic applies to multi-dimensional arrays, making a selection using square bracket notation. Let’s add a few more options to our tea shelf:</br>
+                <a href="https://gyazo.com/ef0b59da5dab1c208e48f4a6c7a712e2"><img src="https://i.gyazo.com/ef0b59da5dab1c208e48f4a6c7a712e2.png" alt="Image from Gyazo" width="433"/></a>
+    </br>
+                Anyone else craving blackberry tea now? Just me?
+</br></br></br></br>
+                Objects are very similar to arrays, except we interact with them through properties. Here is an object describing the resident flat cat, Nila:</br>
+                <a href="https://gyazo.com/cb7c48bd3186d582f7dc2867c3a74c10"><img src="https://i.gyazo.com/cb7c48bd3186d582f7dc2867c3a74c10.png" alt="Image from Gyazo" width="501"/></a>
+</br>
+                You can clearly see, she is very sassy and very cuddly, loves sleeping and helping with the laundry. We can include different properties in an object, such as strings, numbers and arrays. Very fancy. There are a few ways you can access information in an object. The first is dot notation, which you can use if you know the property name:</br>
+                <a href="https://gyazo.com/0b0afda623af0bb783230e6e9575104d"><img src="https://i.gyazo.com/0b0afda623af0bb783230e6e9575104d.png" alt="Image from Gyazo" width="503"/></a>
+</br>
+                What if we want to know how Nila feels about laundry? We’ll need to use bracket notation, because the answer has spaces in it. Bracket notation can also be used on properties without spaces, just to point that out...</br>
+                <a href="https://gyazo.com/337a5ce095de3f76e5a8c61c54442516"><img src="https://i.gyazo.com/337a5ce095de3f76e5a8c61c54442516.png" alt="Image from Gyazo" width="578"/></a>
+</br>
+                From this, we learn that Nila is an extremely useful cat to have around the house.
+            </p>
+            </div>
+
+            <h2>Functions and why they are helpful</h2>
+            <div class="main-content">
+              <p>JavaScript is an object-based language and functions are one of those objects. As such, functions are a really crucial building block in JavaScript. These hardworking chunks of code basically exist to execute a task or calculate a value, before returning a result. They form the foundation of much of our code.
+                Let’s say we want to create a function that will calculate the awesomeness of a cat. As everyone knows, a cat’s awesomeness is calculated by their sassiness times cuddliness. So Nila’s awesomeness would be…
+              </br><a href="https://gyazo.com/91bbe38948931a4b1a5a0e6a836a84cd"><img src="https://i.gyazo.com/91bbe38948931a4b1a5a0e6a836a84cd.png" alt="Image from Gyazo" width="397"/></a>
+            </br>  
+              That would mean her Awesomeness is 80, which is really pretty impressive.
+                Honestly, functions still do my head in. But again, the potential is very exciting!
+                </p>
+            </div>
+
+            <div class="main-content" >
+                <img id="nila-img" class="center" src="blog-imgs/nila-coding.jpg" alt="A photo of the ever-helpful Nila, with a laptop open showing lines of HTML in the background.">
+               </div>
+            
+            <div id="back-button"><a href="https://iris-riddell.github.io/">Back to homepage</a></div>
+    </body>
+</html>

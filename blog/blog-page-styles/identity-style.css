@@ -87,6 +87,14 @@ header {
       padding: 20px;
       margin: 30px 40px 10px 40px;
   }
+
+  #tea-flow {
+    width: 300px;
+  }
+
+  #nila-img {
+    width: 25%;
+  }
   
   #back-button {
     display: flex;
@@ -132,6 +140,12 @@ header {
     display: flex;
   justify-content: center;
   align-items: center;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   }
   
   #footer {
