@@ -1,0 +1,58 @@
+body {
+  background: #141212;
+}
+
+#myContainer {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    background: #131030;
+}
+
+#glowstick1 {
+  background: blue;
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  margin-top: 120px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+#glowstick2 {
+  background: yellow;
+  position: absolute;
+  height: 15px;
+  width: 90px;
+  margin: 35px;
+  border-radius: 20px;
+}
+
+#glowstick3 {
+  background: white;
+  position: absolute;
+  height: 15px;
+  width: 100px;
+  margin: 300px;
+  border-radius: 20px;
+}
+
+#glowstick4 {
+  background: blue;
+  position: absolute;
+  height: 10px;
+  width: 90px;
+  margin-top: 320px;
+  margin-left: 30px;
+  border-radius: 20px;  
+}
+
+#glowstick5 {
+  background: blue;
+  position: absolute;
+  height: 10px;
+  width: 90px;
+  margin-top: 40px;
+  margin-left: 300px;
+  border-radius: 20px;  
+}
